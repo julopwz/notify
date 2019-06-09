@@ -1,8 +1,6 @@
 body{
     margin: 0%;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
 }
 
 nav{
@@ -32,11 +30,48 @@ nav h1{
  }
 
 
- div{
-     display: flex;
+ nav div{
+    display: flex;
+    width: 30%;
+    background: none;
  }
 
- nav div img{
-     justify-items: center;
+
+ header{
+    background-color: white;
+    grid-area: header;
+    display: flex;
+    align-items: center;
+    justify-content: center;
  }
 
+
+ h2{
+     color: #000000;
+ }
+
+
+ section{
+    background-color: #e3e3e3;
+    grid-area: section;
+    display: flex;
+    justify-content: center;
+ }
+ aside q{
+     font-style: italic;
+     color: #949494;
+ }
+
+ footer{
+    background-color: #e3e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+ }
+
+ footer div a{
+     text-decoration: none;
+     color: #848484;
+     cursor: pointer;
+ }
