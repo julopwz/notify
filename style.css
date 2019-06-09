@@ -30,3 +30,13 @@ nav h1{
  nav p{
      color: #fffffb;
  }
+
+
+ div{
+     display: flex;
+ }
+
+ nav div img{
+     justify-items: center;
+ }
+
