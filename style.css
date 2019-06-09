@@ -1,8 +1,32 @@
 body{
     margin: 0%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav{
-    background-image: url(users/julia/desktop/notify/img/banner.png);
+    background-image:url(img/banner.png);
+    height: 78vh;
+    width: 100%;
+    background-size: cover;
     border-top: #2ecd71 8.5px solid;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
 }
+
+nav h1{
+    color: #fffffb;
+    font-family: 'Pacifico', cursive;
+ }
+ 
+ nav span{
+     color: #2ecd71;
+     font-family: 'Pacifico', cursive;
+ }
+ 
+ nav p{
+     color: #fffffb;
+ }
