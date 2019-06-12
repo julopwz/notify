@@ -2,13 +2,13 @@ body{
     margin: 0%;
 }
 nav{
+    background-image:url(img/banner.png);
+    height: 480px;
+    width: 100%;
+    background-size: cover;
+    border-top: #2ecd71 8.5px solid;
     display: flex;
     justify-content: space-around;
-    height: 500px;
-    width: 100%;
-    background-image:url(img/banner.png);
-    background-size: cover;
-    border-top: #2ecd71 5.5px solid;
 }
 
 #divTexto, #divImagem{
@@ -17,20 +17,19 @@ nav{
 }
 
 #divImagem{
-    align-items: flex-end;
     display: flex;
     justify-content: center;
 }
 
 #divImagem img{
-    width: 350px;
+    width: 100%;
 }
 
 #divTexto{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding-left: 250px;
+    padding-left: 50px;
 }
 
 #divTexto h1{
@@ -53,9 +52,8 @@ nav{
  }
 
  #divTexto section{
-     display: flex;
      height: 40px;
-     width: 40px;
+     width: 200px;
      margin-top: 20px;
      justify-content: space-around;
  }
@@ -64,16 +62,13 @@ nav{
      height: 40px;
      width: 40px;
      border-radius: 100%;
-     cursor: pointer;
-     background-color: rgba(0, 0, 0, 0.623);
-     display: flex;
-     align-items: center;
-     justify-content: center;
  }
 
  #divTexto section a:hover{
      background-color: #2ecd71;
  }
+
+sec
 
  header{
     background-color: white;
@@ -81,6 +76,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
  }
  
  .icone{
@@ -98,18 +94,25 @@ nav{
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
-    margin: 20px;
  }
 
+.geral{
+    display: flex;
+}
+.vo{
+    display: flex;
+    flex-direction: column;
+}
  h2{
      color: #000000;
  }
 
 
- #video{
+ section{
+    background-color: #e3e3e3;
+    grid-area: section;
     display: flex;
     justify-content: center;
-    background-color: #e3e3e3;
  }
 
 section div input{
@@ -142,8 +145,7 @@ section div input{
 aside div{
     width: 60%;
     justify-items: center;
-    display: flex;
-    flex-direction: column;
+
 }
 
  aside q{
