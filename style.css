@@ -68,8 +68,6 @@ nav{
      background-color: #2ecd71;
  }
 
-sec
-
  header{
     background-color: white;
     grid-area: header;
@@ -166,10 +164,6 @@ aside div{
     margin-inline-end: 0px;
  }
 
- aside ul{
-
- }
-
  footer{
     background-color: #e3e3e3;
     display: flex;
@@ -189,5 +183,4 @@ aside div{
      color: #848484;
      cursor: pointer;
      text-align: center;
-
  }
