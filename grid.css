@@ -4,8 +4,8 @@ body{
                          'section section section section'
                          'aside aside aside aside'
                          'footer footer footer footer';
-    display: grid;
-    grid-template-areas: 'nav' 'header' 'section' 'aside' 'footer';           
+    display: flex;
+    flex-direction: column;
     margin: 0%;
     grid-template-rows: 550px 50vh 50vh 70vh 20vh;
   }
@@ -16,9 +16,3 @@ body{
     justify-content: center;
     flex-direction: column;
 }
-
-.cone{
-    display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
-    grid-template-rows: 33.3% 33.3% 33.3%;
-  }
